@@ -19,7 +19,7 @@ jobs:
 
       - name: Build HTML from .twee
         run: |
-          tweego index.twee -o docs/index.html -f sugarcube-2
+          tweego index.twee -o docs/index.html 
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
