@@ -9,22 +9,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
       - name: Install Tweego
-  run: |
-    curl -OL https://github.com/tmedwards/tweego/releases/download/v2.1.1/tweego-2.1.1-linux-x64.zip
-    unzip tweego-2.1.1-linux-x64.zip -d tweego
-    sudo mv tweego/tweego /usr/local/bin/
-
+        run: |
+          curl -OL https://github.com/tmedwards/tweego/releases/download/v2.1.1/tweego-2.1.1-linux-x64.zip
+          unzip tweego-2.1.1-linux-x64.zip -d tweego
+          sudo mv tweego/tweego /usr/local/bin/
 
       - name: Build HTML from .twee
         run: |
-          tweego index.twee -o docs/index.html 
+          mkdir -p docs
+          tweego index.twee -o docs/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-# trigger again
