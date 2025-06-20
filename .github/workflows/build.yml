@@ -2,8 +2,8 @@ name: Build Twine HTML
 
 on:
   push:
-    paths:
-      - '**.twee'
+    branches:
+      - main
 
 jobs:
   build:
