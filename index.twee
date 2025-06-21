@@ -11,9 +11,7 @@
   "zoom": 1
 }
 
-:: Start
-獻祭之環．正式啟動。
-<<goto "Start">>
+
 
 :: BefriendDemon {"position":"650,400","size":"100,100"}
 <<print "【" + passage() + "】">>
