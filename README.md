@@ -1,6 +1,6 @@
 # 🎮 獻祭之環｜Twine 劇情互動遊戲
 
-一款以「記憶」、「命運」與「神話輪迴」為主題的分歧式互動小說遊戲，由 Twine 撰寫劇本架構，透過 GitHub Actions 全自動轉檔並部署於 GitHub Pages。
+一款以「命運」、「愛情」與「克蘇魯」為主題的分歧式互動小說遊戲，由 Twine 撰寫劇本架構，透過 GitHub Actions 全自動轉檔並部署於 GitHub Pages。
 
 👉 **線上體驗網址**：  
 https://min1917.github.io/sacrifice-ring-twine/
@@ -13,14 +13,6 @@ https://min1917.github.io/sacrifice-ring-twine/
 - ⚙️ 透過 GitHub Actions 自動執行 [Tweego](https://www.motoslave.net/tweego/) 編譯
 - 🚀 成功部署至 GitHub Pages，打造可公開瀏覽的互動遊戲網站
 - 🧪 含 passage 測試、分支邏輯與結局條件設計
-
----
-
-## 🧠 適合收錄於
-
-- 個人履歷／作品集
-- 遊戲企劃、敘事設計、互動敘事開發展示
-- 自學 GitHub Actions / 自動化流程之實例參考
 
 ---
 
@@ -48,11 +40,10 @@ https://min1917.github.io/sacrifice-ring-twine/
 
 ---
 
-## 📌 延伸方向（可加入 Notion / 簡報）
+## 📌 延伸方向
 
-- ✅ 劇情邏輯圖（Twine Flow）
-- ✅ 分支選擇與結局觸發條件表
-- ✅ 測試流程表與 passage debug 分析
+- 未定
+
 
 ---
 
