@@ -29,14 +29,10 @@ https://min1917.github.io/sacrifice-ring-twine/
 ---
 
 ## 📂 專案目錄結構簡介
-├── index.twee                 ← 主劇本（Twine 原始腳本）
-├── docs/
-│   └── index.html             ← 自動產出的 HTML 遊戲檔
-├── .github/
-│   └── workflows/
-│       └── build.yml          ← GitHub Actions 自動轉檔設定
-└── README.md                  ← 專案說明文件（本檔）
-
+.github/workflows/build.yml      # 自動化轉檔腳本
+index.twee                       # 遊戲主劇本檔案
+docs/index.html                  # 自動產出 HTML 成品
+README.md                        # 專案說明（本檔案）
 
 ---
 
