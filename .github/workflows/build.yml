@@ -22,6 +22,8 @@ jobs:
         run: |
           mkdir -p docs
           ./tweego/tweego index.twee -o docs/index.html
+      - name: List output
+        run: ls -l docs/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
